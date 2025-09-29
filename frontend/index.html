@@ -4,109 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Voice-Chat Assistant</title>
-    <style>
-        body {
-            display: flex;
-            margin: 0 auto;
-            background: #222;
-        }
-        #box {
-            box-shadow: 2px 2px 5px black;
-            width: 220px;
-            height: 720px;
-            background: #111;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        #box h1{
-            color: white;
-            font-family: impact;
-        }
-        #img {
-            width: 170px;
-            margin-bottom: 10px;
-            height: 170px;
-            border-radius: 50%;
-            margin-top: auto;
-            overflow: hidden;
-            display: flex;
-            justify-content: center;
-        }
-        #box p{
-            margin-bottom: 20px;
-            color: white;
-            font-size: 18px;
-        }
-        #chatbox {
-            box-shadow: 2px 2px 5px black;
-            display: flex;
-            flex-direction: column;
-            margin-top: 20px;
-            border-radius: 10px;
-            margin-left: 50px;
-            width: 700px;
-            height: 700px;
-            background: #111;
-        }
-        #message {
-            display: flex;
-            margin-top: auto;
-            width: 99%;
-            height: 30px;
-            color: white;
-            background: #0000;
-            border-radius: 10px;
-        }
-        #chat {
-            width: 100%;
-            height: 653px;
-            display: flex;
-            flex-direction: column;
-        }
-        #input {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        #audio {
-            height: 45px;
-            width: 45px;
-            border-radius: 50%;
-            background: #000;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        #audio:hover {
-            background: rgb(125, 109, 14);
-            cursor: pointer;
-            
-        }
-        #l1{
-            margin-left: 5px;
-            width: 3px;
-            height: 5px;
-            background: white;
-        }
-        #l2{
-            width: 3px;
-            height: 18px;
-            background: white;
-        }
-        #l3{
-            width: 3px;
-            height: 12px;
-            background: white;
-        }
-        #l4{
-            margin-right: 5px;
-            width: 3px;
-            height: 9px;
-            background: white;
-        }
-        
-    </style>
+    <link rel="stylesheet" href="./styles.css"/>
 </head>
 <body>
     
@@ -123,16 +21,19 @@
         <div id="container">
             <div id="chat"></div>
             <div id="input">
-                <input type="text" id="message" placeholder="Type Message"/>
-                <div id="audio">
-                    <div id="l1"></div>
-                    <div id="l2"></div>
-                    <div id="l3"></div>
-                    <div id="l4"></div>
-                </div>
+                <form id="form">
+                        <input type="text" autocomplete="off" id="message" placeholder="Type Message"/>
+                    <div id="audio">
+                        <div id="l1"></div>
+                        <div id="l2"></div>
+                        <div id="l3"></div>
+                        <div id="l4"></div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
 
 </body>
 </html>
+<script src="./main.js"></script>

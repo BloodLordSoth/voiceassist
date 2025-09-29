@@ -2,6 +2,8 @@
 
 <br>
 
+![Screenshot](./images/screenshot.png)
+
 ## Description
 ```
 - This will be a chat/voice ai chat web app.
