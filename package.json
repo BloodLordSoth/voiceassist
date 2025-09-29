@@ -1,0 +1,32 @@
+{
+  "name": "voiceassist",
+  "version": "1.0.0",
+  "description": "<br>",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BloodLordSoth/voiceassist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BloodLordSoth/voiceassist/issues"
+  },
+  "homepage": "https://github.com/BloodLordSoth/voiceassist#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "openai": "^5.23.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
