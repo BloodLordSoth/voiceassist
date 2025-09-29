@@ -10,6 +10,7 @@ const openai = new OpenAI({
 
 export async function transcribe(filesource){
     const source = Readable.from(filesource)
+    source.path = 'audio.webm'
     //const source = fs.createReadStream(filesource)
 
     const response = await openai.audio.transcriptions.create({
