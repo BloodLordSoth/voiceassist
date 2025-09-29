@@ -2,13 +2,16 @@
 
 <br>
 
+### Demo
+**[https://sothassist.onrender.com](https://sothassist.onrender.com)**
+
 ![Screenshot](./images/lastclip.gif)
 
 ## Description
 ```
-- This will be a chat/voice ai chat web app.
+- This is a voice/webchat ai web app.
 - Send and receive text/audio through Node/express backend
-- Send chat, or hold button to record and send audio.
+- Send chat, or hold button to record and release to send.
 ```
 
 <br>
